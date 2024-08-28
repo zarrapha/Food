@@ -1,0 +1,75 @@
+h1 {
+  text-align: center;
+  font-family: roboto;
+  font-weight: 700;
+  color: wheat;
+}
+h2 {
+  text-align: center;
+  font-family: helvetica;
+  font-weight: 700;
+  font-size: medium;
+  color: peru;
+  margin: 0 auto;
+  display: table;
+  border-style: solid;
+  border-color: palegoldenrod;
+  border-radius: 5px;
+  background-color: palegoldenrod;
+}
+
+body {
+  background-color: beige;
+  margin: 40px;
+}
+
+img {
+  border: 10px black;
+}
+
+/* Roboto font */
+@font-face {
+  font-family: roboto;
+  src: url(Roboto-Light) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+div {
+  font-family: roboto;
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(Roboto-LightItalic) format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+div {
+  font-family: roboto;
+}
+
+/* Helvetica font */
+@font-face {
+  font-family: helvetica;
+  src: url(HelveticaforTarget.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+div {
+  font-family: helvetica;
+}
+
+/* Helvetica font (BOLD) */
+@font-face {
+  font-family: helvetica;
+  src: url(HelveticaforTarget-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: bold;
+}
+
+div {
+  font-family: helvetica;
+}
