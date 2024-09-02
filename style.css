@@ -1,13 +1,16 @@
+/* Peru for heading, Burlywood for descriptions, palegoldenrod for borders and outlines */
+
 h1 {
   text-align: center;
   font-family: roboto;
   font-weight: 700;
-  color: wheat;
+  color: peru;
 }
-h2 {
+
+:where(h2, h3, h4, h5, h6) {
   text-align: center;
   font-family: helvetica;
-  font-weight: 700;
+  font-weight: 700; /* 500 is normal text, 700 is bold text for Helvetica */
   font-size: medium;
   color: peru;
   margin: 0 auto;
@@ -23,8 +26,79 @@ body {
   margin: 40px;
 }
 
-img {
-  border: 10px black;
+dl {
+  max-width: 25%;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: small;
+  font-family: arial;
+  color: burlywood;
+}
+
+ul {
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: small;
+  font-family: arial;
+  color: burlywood;
+  list-style-position: inside;
+  padding-left: 10px;
+}
+
+ol {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: small;
+  font-family: arial;
+  color: burlywood;
+  list-style-position: outside;
+  padding-left: 0;
+}
+
+li {
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: small;
+  font-family: arial;
+  color: burlywood;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+a {
+  font-family: roboto;
+  font-weight: 300;
+  font-style: bold;
+  font-size: medium;
+  text-align: center;
+  text-decoration-line: none;
+  display: table;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: palegoldenrod;
+  border-radius: 5px;
+  background-color: palegoldenrod;
+}
+
+a:link {
+  color: peru;
+}
+
+a:visited {
+  color: burlywood;
+}
+
+a:hover {
+  color: beige;
+}
+
+.button-container {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
 }
 
 /* Roboto font */
@@ -39,6 +113,7 @@ div {
   font-family: roboto;
 }
 
+/* Roboto font (Italic) */
 @font-face {
   font-family: roboto;
   src: url(Roboto-LightItalic) format("truetype");
