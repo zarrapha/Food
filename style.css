@@ -1,98 +1,132 @@
-/* Peru for heading, Burlywood for descriptions, palegoldenrod for borders and outlines */
-
 h1 {
   text-align: center;
   font-family: roboto;
   font-weight: 700;
-  color: peru;
+  color: #ec9f05;
+  margin: auto;
 }
 
-:where(h2, h3, h4, h5, h6) {
+.header {
+  background-color: #f55536;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  background-color: #eff6e0;
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  margin: auto;
+}
+
+img {
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+
+audio {
+  margin: auto;
+}
+
+hr {
+  color: #aec3b0;
+  width: 50%;
+  height: 5px;
+  background-color: #aec3b0;
+  border-radius: 5px;
+  border-style: hidden;
+}
+
+h2 {
   text-align: center;
-  font-family: helvetica;
+  font-family: roboto;
   font-weight: 700; /* 500 is normal text, 700 is bold text for Helvetica */
-  font-size: medium;
-  color: peru;
-  margin: 0 auto;
+  font-size: big;
+  color: #eff6e0;
+  margin: auto;
+  margin-top: 5%;
   display: table;
   border-style: solid;
-  border-color: palegoldenrod;
-  border-radius: 5px;
-  background-color: palegoldenrod;
+  border-color: #f4845f;
+  background-color: #f4845f;
+  border-radius: 8px;
 }
 
 body {
-  background-color: beige;
-  margin: 40px;
+  margin: auto;
+  padding: 0;
+  background-image: url("img/interlacement.png");
+  background-color: #aec3b0;
 }
 
 dl {
   max-width: 25%;
-  margin: 0 auto;
+  margin: auto;
   text-align: justify;
   font-size: small;
-  font-family: arial;
-  color: burlywood;
+  font-family: helvetica;
+  color: #1f2232;
+  display: block;
 }
 
 ul {
   max-width: 50%;
-  margin: 0 auto;
-  text-align: justify;
+  margin: auto;
+  text-align: center;
   font-size: small;
-  font-family: arial;
-  color: burlywood;
-  list-style-position: inside;
-  padding-left: 10px;
+  font-family: helvetica;
+  color: #1f2232;
 }
 
 ol {
-  max-width: 80%;
-  margin: 0 auto;
+  max-width: 70%;
+  margin: auto;
   text-align: justify;
   font-size: small;
-  font-family: arial;
-  color: burlywood;
-  list-style-position: outside;
-  padding-left: 0;
+  font-family: helvetica;
+  color: #1f2232;
 }
 
 li {
-  max-width: 60%;
-  margin: 0 auto;
+  max-width: 50%;
+  margin: auto;
   text-align: justify;
   font-size: small;
-  font-family: arial;
-  color: burlywood;
-  list-style-position: inside;
-  padding-left: 0;
+  font-family: helvetica;
+  color: #1f2232;
 }
 
 a {
   font-family: roboto;
   font-weight: 300;
   font-style: bold;
-  font-size: medium;
+  font-size: large;
   text-align: center;
   text-decoration-line: none;
-  display: table;
-  margin: 0 auto;
+  display: block;
+  margin: auto;
   border-style: solid;
-  border-color: palegoldenrod;
+  border-color: #f55536;
   border-radius: 5px;
-  background-color: palegoldenrod;
+  background-color: #f55536;
+  margin-bottom: 30px;
 }
 
 a:link {
-  color: peru;
+  color: #ec9f05;
 }
 
 a:visited {
-  color: peru;
+  color: #ec9f05;
 }
 
 a:hover {
-  color: beige;
+  color: #eff6e0;
+  border-color: #f4845f;
+  background-color: #f4845f;
 }
 
 .button-container {

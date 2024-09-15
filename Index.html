@@ -5,30 +5,29 @@
     <title>My Favorite Dishes</title>
   </head>
 
+<meta charset="utf-8">
 <link rel="stylesheet" href="style.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-img {
-  display: block;
-  margin: auto;
-  border-style: solid;
-  border-color: palegoldenrod;
-  border-width: 5px;
-}
-</style>
 
 <body>
-<h1>My Favorite Dishes</h1>
+<div class="header">
+  <h1>My Favorite Dishes</h1>
+</div>
 
- <br />
- <br />
-
-<h2>#1: Sinigang na Baboy</h2>
+<div class="container">
+<h2>Sinigang na Baboy</h2>
 
  <br>
 
-<img src="img/Sinigang.jpg" width="25%"/>  
-  
+ <div id="img"> 
+<img src="img/Sinigang.jpg" width="25%" alt="Sinigang"/>  
+ </div>
+
+<audio controls autoplay loop>
+  <source src="bgm/sinigang.mp3" type="audio/mp3">
+</audio>
+
  <br>
 
 <dl><i>
@@ -37,9 +36,9 @@ img {
   as the souring agent such as unripe mangoes or rice vinegar.
 </dl></i>
 
- <br> <br>
+ <br> <hr>
 
-<h3>Ingredients</h3>
+<h2>Ingredients</h2>
 
  <br>
 
@@ -56,11 +55,12 @@ img {
   <li>Optional: labanos, okra</li>
 </ul>
 
-<br> <br>
+<br>
+<hr>
 
-<h4>Instructions</h4>
+<h2>Instructions</h2>
 
- <br> <br>
+ <br>
 
 <ol>
     <li>Begin by washing pork spare ribs in cold running water to remove any visible impurities.
@@ -76,7 +76,7 @@ img {
         then it's time toss in your onions and tomatoes to add flavor to the broth.
         Cover your pot and let it simmer to fully cook your meat.
         Use a fork to pierce the meat so that the flavors would also enter the meaty parts of the spare ribs,
-        You also do this so you can tell if it’s already set and tender.
+        You also do this so you can tell if it's already set and tender.
     </li>
 
     <br>
@@ -100,9 +100,12 @@ img {
     </li>
 </ol>
 
-<br> <br>
+ <br>
+ <hr> 
+ <br>
 
 <a href="02.html"> Next </a> 
+</div>
 
 </body>
 </html>
