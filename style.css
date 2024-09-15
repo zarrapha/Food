@@ -21,14 +21,29 @@ h1 {
   margin: auto;
 }
 
+p {
+  position: absolute;
+  top: -4.2%;
+  left: 20%;
+  font-size: 100px;
+  font-weight: 700;
+  font-family: Arial;
+  color: #f55536;
+  letter-spacing: -5px;
+}
+
 img {
   display: block;
   margin: auto;
   border-radius: 5px;
+  border-color: #aec3b0;
+  border-style: solid;
 }
 
 audio {
   margin: auto;
+  height: 2em;
+  width: 25%;
 }
 
 hr {
@@ -73,9 +88,10 @@ dl {
 }
 
 ul {
-  max-width: 50%;
+  max-width: 80%;
+  width: 100%;
   margin: auto;
-  text-align: center;
+  text-align: justify;
   font-size: small;
   font-family: helvetica;
   color: #1f2232;
