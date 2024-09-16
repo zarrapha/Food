@@ -22,9 +22,9 @@ h1 {
 }
 
 p {
+  display: flex;
+  top: -40px;
   position: absolute;
-  top: -4.2%;
-  left: 20%;
   font-size: 100px;
   font-weight: 700;
   font-family: Arial;
