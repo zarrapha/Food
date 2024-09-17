@@ -154,7 +154,7 @@ a:hover {
 /* Roboto font */
 @font-face {
   font-family: roboto;
-  src: url(Roboto-Light) format("truetype");
+  src: url(/fonts/Roboto-Regular.ttf) format("truetype");
   font-weight: 300;
   font-style: normal;
 }
@@ -166,7 +166,7 @@ div {
 /* Roboto font (Italic) */
 @font-face {
   font-family: roboto;
-  src: url(Roboto-LightItalic) format("truetype");
+  src: url(/fonts/Roboto-LightItalic.ttf) format("truetype");
   font-weight: 300;
   font-style: italic;
 }
@@ -178,7 +178,7 @@ div {
 /* Helvetica font */
 @font-face {
   font-family: helvetica;
-  src: url(HelveticaforTarget.ttf) format("truetype");
+  src: url(/fonts/HelveticaforTarget.ttf) format("truetype");
   font-weight: 500;
   font-style: normal;
 }
@@ -190,7 +190,7 @@ div {
 /* Helvetica font (BOLD) */
 @font-face {
   font-family: helvetica;
-  src: url(HelveticaforTarget-Bold.ttf) format("truetype");
+  src: url(/fonts/HelveticaforTarget-Bold.ttf) format("truetype");
   font-weight: 700;
   font-style: bold;
 }
