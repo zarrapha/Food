@@ -42,8 +42,8 @@ img {
 
 audio {
   margin: auto;
-  height: 2em;
-  width: 25%;
+  height: 0;
+  width: 0;
 }
 
 hr {
@@ -154,7 +154,7 @@ a:hover {
 /* Roboto font */
 @font-face {
   font-family: roboto;
-  src: url(/fonts/Roboto-Regular.ttf) format("truetype");
+  src: url(/fonts/RobotoCondensed-Regular.ttf) format("truetype");
   font-weight: 300;
   font-style: normal;
 }
